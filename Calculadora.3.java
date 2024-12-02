@@ -27,12 +27,14 @@ public class Calculadora {
                 int multiplicacion = num1 * num2;
                 System.out.printf("Resultado de %d * %d = %d\n", num1, num2, multiplicacion);
                 break;
-                
+
             case "/":
                 int division = num1 / num2;
                 int resto = num1 % num2;
                 System.out.printf("Resultado de %d / %d = %d con un resto = %d\n", num1, num2, division, resto);
-                break;          
+                break;     
+                
+                 
         }
     }
     
